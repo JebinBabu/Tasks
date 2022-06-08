@@ -16,4 +16,4 @@ Go through their documents to build your own version from the resource files.
 
 ### Credits
 
-<img src="https://media.flaticon.com/dist/min/img/logo/flaticon_negative.svg" height="20">[Flaticon](https://flaticon.com)
+<a href="https://flaticon.com">sscs</a><img src="https://media.flaticon.com/dist/min/img/logo/flaticon_negative.svg" height="20">
