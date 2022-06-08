@@ -1,0 +1,49 @@
+@font-face {
+    font-family: 'Source Sans Pro';
+    src: url('../fonts/SourceSansPro-LightItalic.ttf');
+}
+
+*{
+    margin: 0px;
+}
+img{
+    pointer-events: none;
+}
+
+body{
+    background: #F8F9FA;
+    font-family: 'Source Sans Pro';
+    -moz-user-select: none; 
+    -webkit-user-select: none; 
+    -ms-user-select:none;
+    user-select:none;
+    -o-user-select:none;
+}
+#root{
+    margin: auto;
+    text-align: center;
+    width: 100%;
+}
+#root ul{
+    text-align: left;
+}
+
+#style-1::-webkit-scrollbar-track
+{
+	box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	border-radius: 10px;
+	background-color: #F5F5F5;
+}
+
+#style-1::-webkit-scrollbar
+{
+	width: 5px;
+	background-color: #F5F5F5;
+}
+
+#style-1::-webkit-scrollbar-thumb
+{
+	border-radius: 10px;
+	box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+	background-color: #006fe6;
+}

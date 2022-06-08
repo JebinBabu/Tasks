@@ -1,0 +1,34 @@
+table{
+    width: 97%;
+    margin: auto;
+    border-collapse: collapse;
+}
+tr,td{
+    padding:9px 0px 9px 0px;
+}
+td{
+    max-width: 90px;
+    overflow-x: hidden;
+}
+
+tr:hover{
+    background: rgb(238, 238, 238);
+}
+td button{
+    margin-top: -2px;
+    background: none;
+    outline: none;
+    border:none;
+    font-size: larger;
+    color:#0055b0;
+    cursor: pointer;
+}
+hr{
+    margin-top: 22px;
+    margin-bottom: 28px;
+    margin-left: 10px;
+    width: 95%;
+}
+ion-icon{
+    pointer-events:none;
+}

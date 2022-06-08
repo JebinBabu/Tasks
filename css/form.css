@@ -1,0 +1,60 @@
+.colRed{
+    color:red;
+}
+.datePicker,.timePicker{
+    width: 100px;
+    font-family: 'Source Sans Pro';
+    font-weight: 600;
+    border-radius: 18px;
+    padding: 3px;
+    border: 1px solid rgb(161, 161, 161);
+    margin: 1px 9px 1px 0px;
+}
+.timePicker{
+    width: 65px;
+}
+
+.formBox{
+    margin-top: 34px;
+    text-align: left;
+    padding: 6px 6px 6px 16px;
+    background: white;
+    box-shadow: 1px 1px 10px rgb(225, 225, 225);
+    display: inline-flex;
+}
+
+.subjectBox{
+    width: 250px;
+    height: 20px;
+    padding-top: 6px;
+    border: none;
+    outline: none;
+}
+.addBtn{
+    background-color: #007BFF;
+    border: none;
+    border-radius: 4px;
+    width: 37px;
+    height: 27px;
+    color: white;
+    font-size: x-large;
+    cursor: pointer;
+}
+.deadlineBtn{
+    border: none;
+    background: none;
+    color: #007BFF;
+    width: 30px;
+    margin-right: 5px;
+    padding-top: 3px;
+    font-size: 20px;
+    cursor: pointer;
+}
+#dateTimeBox{
+    position: absolute;
+    margin-left: 143px;
+    margin-top: 39px;
+}
+
+.slide-fwd-center{-webkit-animation:slide-fwd-center .45s cubic-bezier(.25,.46,.45,.94) both;animation:slide-fwd-center .45s cubic-bezier(.25,.46,.45,.94) both}
+@-webkit-keyframes slide-fwd-center{0%{-webkit-transform:translateZ(0);transform:translateZ(0)}100%{-webkit-transform:translateZ(160px);transform:translateZ(160px)}}@keyframes slide-fwd-center{0%{-webkit-transform:translateZ(0);transform:translateZ(0)}100%{-webkit-transform:translateZ(160px);transform:translateZ(160px)}}
