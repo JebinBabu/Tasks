@@ -1,6 +1,8 @@
 # Tasks
 
 To-Do App made with Neutralino.js and React.
+#### version 1.1.0
+#### I look forward to improve the app during my free time. Always open for suggestions
 
 ### Neutralino.js
 
