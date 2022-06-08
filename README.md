@@ -16,6 +16,6 @@ Go through their documents to build your own version from the resource files.
 
 ### Credits
 
-<a href="https://flaticon.com"><img src="https://media.flaticon.com/dist/min/img/logo/flaticon_negative.svg" height="20"></a>
-<a href="https://reactjs.org"><img src="https://logos-download.com/wp-content/uploads/2016/09/React_logo_wordmark.png" height="20"></a>
+<a href="https://neutralino.js.org/"><img src="https://neutralino.js.org/img/logo.png" height="20"></a><br>
+<a href="https://reactjs.org"><img src="https://logos-download.com/wp-content/uploads/2016/09/React_logo_wordmark.png" height="20"></a><br>
 <a href="https://flaticon.com"><img src="https://media.flaticon.com/dist/min/img/logo/flaticon_negative.svg" height="20"></a>
