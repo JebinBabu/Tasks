@@ -1,3 +1,5 @@
 # Tasks
 
-To-Do App powered by Neutralino.js which is a worthy alternate for electron.js and NW.js
+To-Do App made with Neutralino.js and React.
+
+## Neutralino.js
