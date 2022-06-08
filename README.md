@@ -16,4 +16,4 @@ Go through their documents to build your own version from the resource files.
 
 ### Credits
 
-<img href="https://google.com" src="https://media.flaticon.com/dist/min/img/logo/flaticon_negative.svg" height="20">
+[Flaticon](https://flaticon.com)<img src="https://media.flaticon.com/dist/min/img/logo/flaticon_negative.svg" height="20">
