@@ -6,7 +6,7 @@ To-Do App made with Neutralino.js and React.
 
 [Neutralino.js](https://neutralino.js.org/) is a lightweight cross-platform desktop apps with JavaScript, HTML, and CSS.
 
-Go through their documents to build your own version from my resource files.
+Go through their documents to build your own version from the resource files.
 
 ### License
 
