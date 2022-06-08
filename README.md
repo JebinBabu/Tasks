@@ -2,7 +2,7 @@
 
 To-Do App made with Neutralino.js and React.
 #### version 1.1.0
-#### I look forward to improve the app during my free time. Always open for suggestions
+#### I look forward to improve the app during my free time. Always open for suggestions.
 
 ### Neutralino.js
 
@@ -14,6 +14,6 @@ Go through their documents to build your own version from the resource files.
 
 [MIT](LICENSE)
 
-### Icon credits
+### Credits
 
-[Flaticon](https://www.flaticon.com)
+[Flaticon](https://media.flaticon.com/dist/min/img/logo/flaticon_negative.svg)
