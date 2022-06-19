@@ -1,15 +1,17 @@
 Neutralino.init()
 const { useState,useEffect } = React
-//_init()
+_init()
 
 // comment this code during development
-//document.addEventListener('contextmenu', event => event.preventDefault());
+document.addEventListener('contextmenu', event => event.preventDefault());
 
 const Main = (props) => {
 
     const [tasks,setTasks] = useState([])
     const [init,setInit] = useState(false)
-    const [settings,setSettings] = useState({alwaysOnTop:true})
+    const [settings,setSettings] = useState({"alwaysOnTop":0,setSize:{"width":1387,"height":790}})
+    const [latestVersion,setLatestVersion] = useState('1.1.1')
+    const [currentVersion,setCurrentVersion] = useState('1.1.1')
 
     useEffect(()=>{
 
@@ -32,6 +34,22 @@ const Main = (props) => {
             _getData('settings').then(settings => {
 
                 setSettings({...settings})
+
+            }).catch((err) => {
+
+                if(err.code == 'NE_ST_NOSTKEX'){
+
+                    _setData('settings',{"alwaysOnTop":0,setSize:{"width":1387,"height":790}})
+                }
+            })
+
+            fetch('http://neu.binsinfotech.com')
+            .then(data => data.text())
+            .then(data => {
+
+                let newData = JSON.parse(data)
+
+                setLatestVersion(newData.tasks.latestVersion)
             })
             
         }
@@ -52,12 +70,7 @@ const Main = (props) => {
 
         let newSettings = {...settings}
         
-        if(Number(value) !== null){
-            newSettings[setting] = Number(value)
-        }
-        else{
-            console.log(setting,value)
-        }
+        newSettings[setting] = value
 
         setSettings(newSettings)
 
@@ -80,9 +93,9 @@ const Main = (props) => {
     }
 
     return <div>
-        <TopNav/>
+        <TopNav latestVersion = {latestVersion} currentVersion = {currentVersion}/>
         <SettingsWindow settings={settings} changeSetting={changeSetting}/>
-        <UpdateWindow/>
+        <UpdateWindow latestVersion = {latestVersion} currentVersion = {currentVersion}/>
         <TaskForm tasks={tasks} addNewTask={addNewTask}/>
         <TaskList tasks={tasks} deleteTask={deleteTask}/>
     </div>

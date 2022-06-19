@@ -10,6 +10,8 @@ async function _init(){
     })
     
     await Neutralino.window.show();
+
+
 }
 
 async function _setData(id,data){
@@ -30,6 +32,10 @@ async function _window(setting,value){
     switch (setting) {
         case 'alwaysOnTop':
             await Neutralino.window.setAlwaysOnTop(value)
+            break;
+
+        case 'setSize':
+            await Neutralino.window.setSize(value)
             break;
     
         default:
